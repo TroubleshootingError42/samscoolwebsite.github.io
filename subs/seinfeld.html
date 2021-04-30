@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+  <body id="thisplace">
+    <head>
+      <style>  
+    
+.button {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/presein.png);
+  background-position: center;
+  background-size: 300px 300px;
+  
+  transition-duration: 0.07s;
+  
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 50px;
+}
+
+
+.button:hover {
+background-color: #e0e0e0;
+}
+
+.button:active {
+background-image: url(../images/seinpress.png);
+background-position: center;
+transition: width 1s;
+}
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h6{
+position: absolute;
+bottom: -20px;
+right: 7px;
+}
+
+img{
+width: 100px;
+height: 100px;
+
+}
+.escape {
+  color: #0000EE;
+  text-decoration: underline;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 16px;
+  font-weight: bold; 
+  position:relative;
+  left: -2px;
+}
+
+
+    </style>
+  </head>
+
+<div class="escape">
+<button class="escape" onclick="howman()">Back Home</button>
+</div>
+
+<audio id="funnies" src="../audio/seinfeld.mp3"></audio>
+
+
+
+<div class="container">
+ <div class="center"> 
+  <button class="button" onclick="playAudio()">Seinfeld</button>
+ </div>
+</div>
+
+<script>
+var mm = document.getElementById("funnies");
+var mn = document.getElementById("thisplace");
+
+
+function playAudio() { 
+  mm.play(); 
+  mm.loop = true;
+  mn.style.backgroundImage = "url(../images/seinback.gif)";
+} 
+
+function howman() {
+  alert("You cannot leave seinfeld");
+}
+
+</script>
+
+<h6>*I suggest you hold down when you click the button</h6>
+
+</body>
+
+</html>
+
+
+
+
+
+
