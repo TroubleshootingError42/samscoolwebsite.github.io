@@ -4,6 +4,7 @@
 \  | | /‾‾\ | \| \7 |__ \/ \7
 
 7/25/2021 AD
+the stuff update
 
 Made swiss roll stuff more pixely
 improved swiss roll items
@@ -24,6 +25,6 @@ What to expect next
 
 Fix Jack o' Lanturn
 Do something with the vexes (already planned)
-Swiss roll Armor will actually be swiss roll on the player
+Swiss roll Armor will actually be swiss roll 0on the player
 
 ⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
