@@ -1,7 +1,7 @@
 window.onload = function() {
     var splashList = [
         "<i>Mindcraft?</i> No no no no no, I will not endulge!",
-        "r/beigepants, that's a nice place",
+        "r/beigejeans, that's a nice place",
         "Born and raised",
         "I might hold on to that ip adress of yours",
         "The Js? Never heard of them.",
