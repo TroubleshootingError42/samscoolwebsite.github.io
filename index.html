@@ -1,39 +1,29 @@
-window.onload = function() {
-  var splashList = [
-      "<i>Mindcraft?</i> No no no no no, I will not endulge!",
-      "r/beigejeans, that's a nice place",
-      "Born and raised",
-      "I might hold on to that ip adress of yours",
-      "The Js? Never heard of them.",
-      "Famous rapper emcee MF DOOM",
-      "<div onmouseover='up()'>hey, hover over me</div>",
-      "it's being delivered to you right now!",
-      "Charnlie Brownd",
-      "Due to inflation, sam's cool texture pack is now even more free",
-      "I have a feeling that we won't survive",
-      "<a href='https://google.com'>google.com</a>",
-      "<a href='https://grabify.link/3WD3L6'>Hey click this to give me your ip adress</a>"
-  ];
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="images/favicon.ico?" type="image/x-icon"/>
+    <script src="javascript/index/splash.js"></script>
+    <title>Welcome to the cool website</title>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
 
-  document.getElementById("splash").innerHTML = splashList[Math.floor(Math.random() * splashList.length)];
-};
+     <img src="images/logo.gif" alt="Welcome to Sam's Cool Website" class="mid">
+     <script src="javascript/ani.js"></script>
+    
+    <br>
+    <!--Navigations-->
+    <i>
+    <h3><a href="minecraft.html">My Minecraft Texture Pack</a></h3>
+    <h3><a href="seinfeld.html">The Seinfeld Button</a></h3>
+    <h3><a href="smash.html"><i>The Smash Roster | (more to come)</i></a></h3>
+    <h3><a href="mydog.html"><mydog>My Dog</mydog></a></h3>
+    <h3><a href="https://tinyurl.com/jerma985here">Source code, nerd</a></h3>
+    </i>
 
+    <!--cool secret, figure it out nerds!-->
+    <script src="javascript/index/theface.js"></script>
 
-//splash functions
-var splashRight = 0;
-function up() {
-  document.getElementById("splash").innerHTML = "i am free";
-  hovMove1()
-}
-
-function hovMove1() {
-  splashRight += 7
-  document.getElementById("splash").style.right = splashRight+"px"
-setTimeout(hovMove2, 10)
-}
-           
-function hovMove2() {
-if (splashRight > screen.width) { console.log("it's gone"); }
-else { setTimeout(hovMove1, 10); }
-}
-
+    <div id="splash">Hey, looks like this text thing isn't working</div>
+  </body>
+</html>
