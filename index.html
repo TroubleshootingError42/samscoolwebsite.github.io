@@ -2,75 +2,28 @@
 <html>
   <head>
     <link rel="icon" href="images/favicon.ico?" type="image/x-icon"/>
-      <title>Welcome to the cool website</title>
-      <style>
-        body{
-          max-width: 100%;
-          overflow-x: hidden;
-        }
-          swag {
-             color: red;
-             text-shadow: 2px 2px #bc13fe;
-          }
-          me {
-              color: #0040ff;
-          }
-          tech {
-              color: #39FF14;
-          }
-          mydog:hover {
-              color: #0000ff;
-              text-decoration-color: #0000ff;
-          }
-          mydog {
-            color: #ffffff;
-            text-decoration: underline;
-            text-decoration-color: #ffffff;
-          }
-          .j {
-            position: relative;
-            top: -150px;
-            left: 1000px;
-          }
-          .spin{
-            width: 150px;
-          }
-
-         
-      </style>
+    <script src="javascript/index/splash.js"></script>
+    <title>Welcome to the cool website</title>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
 
      <img src="images/logo.gif" alt="Welcome to Sam's Cool Website" class="mid">
      <script src="javascript/ani.js"></script>
     
     <br>
+    <!--Navigations-->
     <i>
-    <h3><a href="subs/minecraft.html">My Minecraft Texture Pack</a></h3>
-    <h3><a href="subs/seinfeld.html">The Seinfeld Button</a></h3>
-    <h3><a href="subs/smash.html"><i>The Smash Roster | (more to come)</i></a></h3>
-    <h3><a href="subs/mydog.html"><mydog>My Dog</mydog></a></h3>
+    <h3><a href="minecraft.html">My Minecraft Texture Pack</a></h3>
+    <h3><a href="seinfeld.html">The Seinfeld Button</a></h3>
+    <h3><a href="smash.html"><i>The Smash Roster | (more to come)</i></a></h3>
+    <h3><a href="mydog.html"><mydog>My Dog</mydog></a></h3>
     <h3><a href="https://tinyurl.com/jerma985here">Source code, nerd</a></h3>
     </i>
 
+    <!--cool secret, figure it out nerds!-->
+    <script src="javascript/index/theface.js"></script>
 
-
-
-
-
-    <script>  
-      var him;
-      him = Math.floor(Math.random() * 100);
-      console.log(him);
-  if (him == 9) {
-      showThing();
-     
-    }
-    function showThing() {
-      //i do̶n̶'̶t understand any of this
-      let div = document.createElement('div');
-      div.innerHTML = '<div class="j"><img class="spin" src="images/nullnome.png"><div>';
-      document.body.appendChild(div);
-      
-    }
-    </script>
-  </head>
+    <div id="splash">Hey, looks like this text thing isn't working</div>
+  </body>
 </html>
