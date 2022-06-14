@@ -9,7 +9,10 @@ window.onload = function() {
       "<div onmouseover='up()'>hey, hover over me</div>",
       "it's being delivered to you right now!",
       "Charnlie Brownd",
-      "Due to inflation, sam's cool texture pack is now even more free"
+      "Due to inflation, sam's cool texture pack is now even more free",
+      "I have a feeling that we won't survive",
+      "<a href='https://google.com'>google.com</a>",
+      "<a href='https://grabify.link/3WD3L6'>Hey click this to give me your ip adress</a>"
   ];
 
   document.getElementById("splash").innerHTML = splashList[Math.floor(Math.random() * splashList.length)];
