@@ -1,0 +1,82 @@
+body{
+  
+    font-size: 20px;
+        }
+
+
+        .mid{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+        }
+        ovr{
+            text-decoration: overline;
+        }
+        .fine{
+            font-size: 7px;
+            font-weight: bold;
+            line-height: 80%;
+        }
+        .man{
+            width: 700px;
+        }
+        .wavy{
+            position: relative;
+        }
+        .wavy span {
+                position: relative;
+                display: inline-block;
+                color: rgb(255, 0, 221);
+                text-shadow: 0 0 4px #1100ff, 0 0 5px #0000FF;
+                
+                animation: animate 6s ease-in-out infinite;
+                animation-delay: calc(0.2s * var(--i));
+            }
+            @keyframes animate {
+                0% {
+                    transform: translateY(0px);
+                }
+      
+                10% {
+                    transform: translateY(-20px);
+                }
+      
+                20% {
+                    transform: translateY(0px);
+                }
+      
+                30% {
+                    transform: translateY(-20px);
+                }
+    
+                40% {
+                    transform: translateY(0px);
+                }
+                
+                50% {
+                    transform: translateY(-20px);
+                }
+                60% {
+                    transform: translateY(0px);
+                }
+      
+                70% {
+                    transform: translateY(-20px);
+                }
+      
+                80% {
+                    transform: translateY(0px);
+                }
+    
+                90% {
+                    transform: translateY(-20px);
+                }
+                
+                100% {
+                    transform: translateY(0px);
+                }
+            }
+            lonk {
+                text-shadow: -2px -2px 2px #eeff00;
+            }
+             
