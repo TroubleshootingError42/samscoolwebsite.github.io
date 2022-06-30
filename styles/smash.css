@@ -1,0 +1,287 @@
+
+/*https://colordesigner.io/gradient-generator*/
+            body {
+background-image: linear-gradient(#95050750, #ffffff, #c7c7c7, #919191, #5f5f5f, #313131, #202020 );
+            }
+
+            /*home button*/
+          h4  {
+font-family: Arial, Helvetica, sans-serif;
+            }
+          #thislink:visited{
+color: blue;
+            }
+
+
+            
+.grid {
+  margin: auto;
+  width: 1207.5px;
+  padding: 1px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1px;
+  background-color: #cccccc;
+  color: #00000000;
+  
+}
+.item {
+  background-size: cover;
+  width: 402.5px;
+  height: 96.6px;
+}
+
+/*this is where all the fighters are at*/
+
+#mario01  {
+background-image: url(../images/smash/mario.png);
+}
+#dk02  {
+background-image: url(../images/smash/DK.png);
+}
+#link03  {
+background-image: url(../images/smash/Link.png);
+}
+#samus04  {
+background-image: url(../images/smash/Samus.png);
+}
+#dsamus04e  {
+background-image: url(../images/smash/dsamus.png);
+}
+#yoshi05  {
+background-image: url(../images/smash/Yoshi.png);
+}
+#kirby06  {
+background-image: url(../images/smash/Kirby.png);
+}
+#fox07  {
+background-image: url(../images/smash/Fox.png);
+}
+#pika08  {
+background-image: url(../images/smash/Pikachu.png);
+}
+#luigi09  {
+background-image: url(../images/smash/Luigi.png);
+            }
+#ness10  {
+background-image: url(../images/smash/ness.png);
+            }  
+#falcon11  {
+background-image: url(../images/smash/captainFalcon.png);
+            }  
+#jiggly12  {
+background-image: url(../images/smash/jigglypuff.png);
+            }  
+#peach13  {
+background-image: url(../images/smash/Peach.png);
+            }  
+#daisy13e  {
+background-image: url(../images/smash/Daisy.png);
+            }      
+#bowser14  {
+background-image: url(../images/smash/bowser.png);
+            } 
+#climbers15  {
+background-image: url(../images/smash/iceClimbers.gif);
+            }  
+#sheik16  {
+background-image: url(../images/smash/Sheik.png);
+            }  
+#zelda17  {
+background-image: url(../images/smash/Zelda.png);
+            }  
+#drmario18  {
+background-image: url(../images/smash/drMario.jpg);
+            }  
+#pichu19  {
+background-image: url(../images/smash/pichu.png);
+            }  
+#falco20  {
+background-image: url(../images/smash/Falco.png);
+            }  
+#marth21  {
+background-image: url(../images/smash/Marth.png);
+            }
+#lucina21e  {
+background-image: url(../images/smash/lucina.png);
+            }
+#ylink22  {
+background-image: url(../images/smash/youngLink.png);
+            }
+#ganon23  {
+background-image: url(../images/smash/Ganondorf.png);
+            }
+#mewtwo24  {
+background-image: url(../images/smash/Mewtwo.png);
+            }
+#roy25  {
+background-image: url(../images/smash/roy.png);
+            }
+#chrom25e  {
+background-image: url(../images/smash/Chrom.png);
+            }            
+#mrgame26  {
+background-image: url(../images/smash/gamenwatch.png);
+            }
+#metaknight27  {
+background-image: url(../images/smash/MetaKnight.png);
+            }
+#pit28  {
+background-image: url(../images/smash/pit.png);
+            }
+#dpit28e  {
+background-image: url(../images/smash/dPit.png);
+            }
+#wario30  {
+background-image: url(../images/smash/Wario.png);
+            }
+#snake31  {
+background-image: url(../images/smash/Snake.png);
+            }
+#ike32  {
+background-image: url(../images/smash/Ike.png);
+            }
+#pokemon33  {
+background-image: url(../images/smash/pokemonTrainer.png);
+            }
+#diddy36  {
+background-image: url(../images/smash/DiddyKong.png);
+            }
+#lucas37  {
+background-image: url(../images/smash/Lucas.jpg);
+            }
+#sonic38  {
+background-image: url(../images/smash/Sonic.png);
+            }
+#dedede39  {
+background-image: url(../images/smash/dedede.png);
+            }
+#olimar40  {
+background-image: url(../images/smash/Olimar.png);
+            }
+#lucario41  {
+background-image: url(../images/smash/Lucario.png);
+            }
+#rob42  {
+background-image: url(../images/smash/R.O.B..png);
+            }
+#tlink43  {
+background-image: url(../images/smash/toonLink.png);
+            }
+#wolf44  {
+background-image: url(../images/smash/Wolf.png);
+            }
+#villager45  {
+background-image: url(../images/smash/Villager.png);
+            }
+#megaman46  {
+background-image: url(../images/smash/MegaMan.png);
+            }
+#wiifit47  {
+background-image: url(../images/smash/WiiTrainer.png);
+            }
+#rosalina48  {
+background-image: url(../images/smash/RosalinaLuma.png);
+            }
+#mac49  {
+background-image: url(../images/smash/LittleMac.png);
+            }
+#greninja50  {
+background-image: url(../images/smash/Greninja.png);
+            }
+#miis5153  {
+background-image: url(../images/smash/MiiFighters.png);
+            }
+#palutena54  {
+background-image: url(../images/smash/Palutena.png);
+            }
+#pacman55  {
+background-image: url(../images/smash/pacman.png);
+            }
+#robin56  {
+background-image: url(../images/smash/Robin.png);
+            }
+#shulk57  {
+background-image: url(../images/smash/shulk.png);
+            }
+#bowserjr58  {
+background-image: url(../images/smash/bowserJr.png);
+            }
+#duckhunt59  {
+background-image: url(../images/smash/duckHunt.png);
+            }
+#ryu60  {
+background-image: url(../images/smash/Ryu.png);
+            }
+#ken60e  {
+background-image: url(../images/smash/Ken.png);
+            }
+#cloud61  {
+background-image: url(../images/smash/Cloud.png);
+            }
+#corrin62  {
+background-image: url(../images/smash/corrin.png);
+            }
+#bayonetta63  {
+background-image: url(../images/smash/bayonetta.png);
+            }
+#inkling64  {
+background-image: url(../images/smash/Inkling.png);
+            }
+#ridley65  {
+background-image: url(../images/smash/ridley.png);
+            }
+#simon66  {
+background-image: url(../images/smash/Simon.png);
+            }
+#richter66e  {
+background-image: url(../images/smash/Richter.png);
+            }
+#krool67  {
+background-image: url(../images/smash/Krool.png);
+            }
+#isabelle68  {
+background-image: url(../images/smash/isabelle.png);
+            }
+#funny69  {
+background-image: url(../images/smash/Incineroar.png);
+            }
+
+/*HEY it's the dlc*/
+
+#plant70  {
+background-image: url(../images/smash/plant.png);
+            }
+#joker71  {
+background-image: url(../images/smash/joker.jpg);
+            }
+#hero72  {
+background-image: url(../images/smash/hero.png);
+            }
+#banjo73  {
+background-image: url(../images/smash/banjoKazooie.png);
+            }
+#terry74  {
+background-image: url(../images/smash/Terry.png);
+            }
+#byleth75  {
+background-image: url(../images/smash/Byleth.png);
+            }
+#minmin76  {
+background-image: url(../images/smash/minmin.png);
+            }
+#steve77  {
+background-image: url(../images/smash/Steve.png);
+            }
+#sephiroth78  {
+background-image: url(../images/smash/Sephiroth.png);
+            }
+#pyra79  {
+background-image: url(../images/smash/pyra-mythra.png);
+            }
+#kazuya81  {
+background-image: url(../images/smash/Kazuya.png);
+            }
+#sora82  {
+background-image: url(../images/smash/sora.png);
+            }
