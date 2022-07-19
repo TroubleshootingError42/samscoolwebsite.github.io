@@ -14,9 +14,3 @@ function loop2() {
     document.getElementById("horse").innerHTML=comp
   setTimeout(loop1, 500)
 }
-
-/*var comp = ''
-  for (let i = 0; i < 20; i++) {
-      comp=comp + ranBlock[Math.floor(Math.random() * ranBlock.length)]
-    }
-    document.getElementById("horse").innerHTML=comp*/
