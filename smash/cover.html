@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cover.css">
+    <script src="cover.js" defer></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+ 
+    <body>
+        
+        <div id="navBox">
+            <a href="../smash.html" id="lonk">The Roster</a>
+            <a href="https://samscoolwebsite.com" id="lonk">Home</a>
+        </div>
+        
+            <div id="crapHolder">
+                <button id="arrow" onclick="next()" style="right: 0px;">
+                    <svg viewBox="0 0 12 20">
+                        <path d="M1.5 0 L0 1.5 8.5 10 0 18.5 1.5 20 l10 -10" fill-rule="evenodd"></path>
+                    </svg>
+                </button>
+
+                <button id="arrow" onclick="back()">
+                    <svg viewBox="0 0 12 20">
+                        <path d="M10 0 L0 10 10 20 l1.5 -1.5 -8.5 -8.5 8.5 -8.5" fill-rule="evenodd"></path>
+                    </svg>
+                </button>
+
+                <img src="products/product.jpg" style="width: 500px;" id="crapImg" onload="center()">
+            </div>
+
+                <div id="carlos">
+                    <b id="carlosTtl">subpar smash bros Box Art | PNG or TIFF | no money</b>
+                    <div id="carlosSubttl">sam's selling it to ya!</div>
+                    <hr>
+
+                    <p width="68px" id="carlosPg">FDA approval: <b>pending</b></p>
+                    
+                    <p width="68px">Quantity: <input id="carlosInp" type="number" min="0" value="0"></p>
+                    <p width="68px">Quality: 
+                        <select id="qualitySelect">
+                            <option value="png">PNG</option>
+                            <option value="jpeg">JPEG</option>
+                        </select>
+                    </p>
+
+                    <p width="68px">Color: 
+                        <select id="colorSelect">
+                            <option value="">None</option>
+                            <option value="Blue">blue</option>
+                            <option value="REB">robin's egg blue</option>
+                            <option value="Walmart">walmart yellow</option>
+                        </select>
+                    </p>
+                    <hr>
+                    
+                    <p width="68px">Price: </p>
+                    <div id="carlosPrices">
+                        US
+                        <br>
+                        $0.00
+                    </div>
+
+                    
+                        <button id="carlosBuy" onclick="purchase()">Buy our product</button>
+                     
+                    
+                </div>
+        
+    </body>
+</html>
