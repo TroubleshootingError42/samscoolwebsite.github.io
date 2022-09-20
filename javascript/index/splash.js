@@ -1,4 +1,10 @@
-window.onload = function() {
+window.onload = function()
+{
+//roll a number 0 to 5, if its less than 1, make the splash text the survey, else, make it a random splash
+if (Math.random()*5 < 1) {
+  document.getElementById("splash").innerHTML = "<a href='https://forms.gle/u8SQaAH6rXxBpcx19' target='_blank'>Please take our survey</a>"
+}
+else {
   var splashList = [
       "<i>Mindcraft?</i> No no no no no, I will not endulge!",
       "r/beigejeans, that's a nice place",
@@ -12,8 +18,8 @@ window.onload = function() {
       "Shoutout to AllIn2Ring",
       "I talk to a skeleton, he helps me realize my faults."
   ];
-
   document.getElementById("splash").innerHTML = splashList[Math.floor(Math.random() * splashList.length)];
+}
 };
 
 
