@@ -9,14 +9,29 @@ else {
       "<i>Mindcraft?</i> No no no no no, I will not endulge!",
       "r/beigejeans, that's a nice place",
       "Born and raised",
-      "Famous rapper emcee MF DOOM",
+      "Famous rapper/emcee MF DOOM",
       "<div onmouseover='up()'>hey, hover over me</div>",
       "Charnlie Brownd",
       "Due to inflation, sam's cool texture pack is now even more free",
       "<a href='https://google.com'>google.com</a>",
       "<a href='https://grabify.link/3WD3L6'>Hey click this to give me your ip adress</a>",
-      "Shoutout to AllIn2Ring",
-      "I talk to a skeleton, he helps me realize my faults."
+      "I talk to a skeleton, he helps me realize my faults.",
+      "Bought and sold",
+      "She's so heavy",
+      "Go to samscoolwebsite.com",
+      "Straight Yammin'",
+      "<a href='https://onlinesequencer.net/members/69835'>my music</a>",
+      "Samscoolwebsite.com is a subtle critique of the favorite thing",
+      "We have fun around here",
+      "Markiplier",
+      "I do not watch that YouTube™r",
+      "Shoutout to Bill Wurtz",
+      "What's going on",
+      "Dude, the size of this penny",
+      "We have nothing",
+      "King Charles",
+      "The milk has a GHOST",
+      "Widely misinterpreted"
   ];
   document.getElementById("splash").innerHTML = splashList[Math.floor(Math.random() * splashList.length)];
 }
