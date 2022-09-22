@@ -21,7 +21,7 @@ else {
       "Go to samscoolwebsite.com",
       "Straight Yammin'",
       "<a href='https://onlinesequencer.net/members/69835'>my music</a>",
-      "Samscoolwebsite.com is a subtle critique of the favorite thing",
+      "Samscoolwebsite.com is a subtle critique of your favorite thing",
       "We have fun around here",
       "Markiplier",
       "I do not watch that YouTube™r",
@@ -31,7 +31,10 @@ else {
       "We have nothing",
       "King Charles",
       "The milk has a GHOST",
-      "Widely misinterpreted"
+      "Widely misinterpreted",
+      "Go to bed, and dream of nightmares",
+      "Doritos cheetos or fritos",
+      "Vizual Stizual Kizual"
   ];
   document.getElementById("splash").innerHTML = splashList[Math.floor(Math.random() * splashList.length)];
 }
