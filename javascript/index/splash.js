@@ -2,7 +2,7 @@ window.onload = function()
 {
 //roll a number 0 to 5, if its less than 1, make the splash text the survey, else, make it a random splash
 if (Math.random()*5 < 1) {
-  document.getElementById("splash").innerHTML = "<a href='https://forms.gle/u8SQaAH6rXxBpcx19' target='_blank'>Please take our survey</a>"
+  document.getElementById("splash").innerHTML = "<a href='https://forms.gle/FDdG73nzvJVSnaVe7' target='_blank'>Please take our survey</a>"
 }
 else {
   var splashList = [
