@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <link rel="icon" type="image/x-icon" href="favico.png">
+
+    <script>
+
+    setTimeout(() => {
+        document.getElementsByTagName("img")[0].remove();
+        console.log("removed");
+    }, 660);
+             
+    </script>
+
+    <style>
+        img {
+            display: block;
+            width: 100%;
+            object-fit: cover; /* or object-fit: contain; */
+        }
+
+        html {
+            overflow-x: hidden;
+            overflow-y: hidden;
+            margin: 0;
+            background-color: black;
+            background-image: url("BG.gif");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+    
+    <img src="swing.gif">
+        
+</html>
