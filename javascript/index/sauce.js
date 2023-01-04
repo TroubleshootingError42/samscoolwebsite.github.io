@@ -1,3 +1,3 @@
-var list = ["eye.html", "interaction.html", "wheel.html"]
-option = list[Math.random() * list.length];
+var sauces = ["eye.html", "interaction.html", "wheel.html"]
+option = sauces[Math.floor(Math.random() * sauces.length)];
 document.getElementById("sauce").href = option;
