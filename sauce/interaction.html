@@ -14,7 +14,6 @@
                 left: 78vw;
                 top: 10vw;
                 border: solid 20px white;
-                transition: width 2s, height 2s, left 2s, top 2s;
                 cursor: pointer;
             }
             #run {
@@ -44,7 +43,8 @@
 
 
                     document.getElementById("there").remove();
-                    //make the runner visible, the video invisible, and move him to the top left and shrink him to nothing
+                    //make the runner visible, the video invisible, enables transition mode, and move him to the top left and shrink him to nothing
+                    document.getElementById("run").style.transition = "width 2s, height 2s, left 2s, top 2s";
                     document.getElementById("run").style.visibility = "visible";
                     document.getElementById("video").style.visibility = "hidden";
                     document.getElementById("run").style.left = "0";
