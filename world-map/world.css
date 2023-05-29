@@ -7,8 +7,6 @@
 }
 #funnybusiness, #olblue {
     height: 8%;
-    display: table-cell;
-    vertical-align: middle;
     aspect-ratio: 1;
     background-color: #ffffff;
     margin: 0;
@@ -55,4 +53,11 @@ body {
     font-size: 16px;
     z-index: 999;
     height: calc(1rem + 1vh);
+}
+a {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    color: #c1dfe9;
+    margin: 0.25%;
 }
