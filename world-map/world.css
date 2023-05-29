@@ -17,6 +17,12 @@
     position: absolute;
     text-align: center;
     cursor: pointer;
+    font-size: 100%;
+}
+
+#funnybusiness {
+    background-color: #0c1bd0;
+    color: #0c1bd0;
 }
 
 #olblue {
