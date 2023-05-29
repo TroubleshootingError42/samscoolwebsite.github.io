@@ -176,6 +176,7 @@ caviarCountries = [
 var thefrick;
 var arbitamon = 1;
 var sickeninglist = [];
+count = 0;
 
 
 async function heylisten(){
@@ -190,10 +191,12 @@ async function heylisten(){
     thefrick = parseInt(thefrick, 10);
 
     for (let i = 0; i < 5; i++) {
-        while (sickeninglist.includes(caviarCountries[arbitamon])) {
+        while (sickeninglist.includes(caviarCountries[arbitamon]) || caviarCountries[arbitamon].charAt(0) == "A") {
             thefrick = thefrick * arbitamon;
             arbitamon = thefrick % 174;
+            //console.log(count++);
         }
         sickeninglist.push(caviarCountries[arbitamon]);
     }
+    //console.log(sickeninglist);
 }

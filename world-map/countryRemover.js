@@ -37,6 +37,8 @@ function removeCountry() {
             $('#award').attr('src', 'mistake.png');
             $('#funnybusiness').remove();
             $('#olblue').remove();
+            $('title').text('⠀');
+            $('#icohaha').attr('href', 'badico.png');
         }
 
         //REMOVE THE COUNTRY AND ITS ITEM IN THE LIST
