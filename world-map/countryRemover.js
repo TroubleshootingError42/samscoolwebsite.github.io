@@ -39,6 +39,7 @@ function removeCountry() {
             $('#olblue').remove();
             $('title').text('⠀');
             $('#icohaha').attr('href', 'badico.png');
+            $('a').css({"color": "#ffffff"});
         }
 
         //REMOVE THE COUNTRY AND ITS ITEM IN THE LIST
