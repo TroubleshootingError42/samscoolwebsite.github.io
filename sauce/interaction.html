@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>interaction</title>
+        <link rel="icon" type="image/x-icon" href="interaction/favico.png">
+        <style>
+            html, body {
+                margin: 0;
+            }
+            .sauce {
+                position: absolute;
+                width: 9vw;
+                height: 15.5vw;
+                left: 78vw;
+                top: 10vw;
+                border: solid 20px white;
+                cursor: pointer;
+            }
+            #run {
+                visibility: hidden;
+            }
+            
+        </style>
+    </head>
+        
+    <body>
+            <img src="interaction/run.gif" id="run" class="sauce">
+            <video class="sauce" id="video">
+                <source src="interaction/Wisdu.mp4" type="video/mp4" class="sauce">
+            </video>
+            <img src="interaction/idle.png" id="there" class="sauce" onmouseover="document.getElementById('there').src = 'interaction/hover.png'" onmouseout="document.getElementById('there').src = 'interaction/idle.png'" onclick="execute()">
+
+        <script>
+            var vface = document.getElementById("there").src
+
+            function execute() {
+                document.getElementById("there").style.visibility = "hidden";
+                //play the video
+                document.getElementById("video").play()
+                //wait until video plays to remove video
+                
+                setTimeout(() => {
+
+
+                    document.getElementById("there").remove();
+                    //make the runner visible, the video invisible, enables transition mode, and move him to the top left and shrink him to nothing
+                    document.getElementById("run").style.transition = "width 2s, height 2s, left 2s, top 2s";
+                    document.getElementById("run").style.cursor = "default";
+                    document.getElementById("run").style.visibility = "visible";
+                    document.getElementById("video").style.visibility = "hidden";
+                    document.getElementById("run").style.left = "0";
+                    document.getElementById("run").style.top = "0";
+                    document.getElementById("run").style.width = "0";
+                    document.getElementById("run").style.height = "0";
+                }, "1866")
+            }
+        </script>
+    </body>
+</html>
