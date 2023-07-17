@@ -1,0 +1,115 @@
+
+    #carlos {
+        position: relative;
+        padding: 8px;
+
+        width: 666px;
+
+        left: 500px;
+        bottom: 500px;
+    }
+    #carlosTtl {
+        font-size: 24px;
+    }
+    #carlosSubttl {
+        padding: 2px;
+        font-size: 17px;
+        color: #555555;
+    }
+    #carlosInp {
+        height: 20px;
+        width: 40px;
+    }
+    #carlosPrices {
+        position: absolute;
+        left: 37.33px;
+        top: 244px;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    #carlosBuy {
+        background: #0060C0;
+        border: 1px solid #0060C0;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 20px;
+        width: 240px;
+        height: 40px;
+        position: absolute;
+        right: 0px;
+        top: 244px;
+    }
+    #carlosBuy:hover {
+        background: #2000C0;
+        cursor: pointer;
+    }
+
+
+ #crapHolder {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+#crapImg
+{
+    position: absolute;
+}
+
+
+
+#arrow{
+    top: calc(50% - 63.5px);
+    position: absolute;
+    width: 47px;
+    height: 127px;
+    padding: 13px;
+    border: solid 1px #808080;
+    opacity: .51;
+    cursor: pointer;
+    fill: #545658;
+    transition: background-color 0.25s, fill 0.25s, opacity 0.25s;
+    z-index: 100;
+}
+#arrow.r {
+    right: 0px;
+}
+
+#arrow:hover {
+    background-color: #707070;
+    fill: #ffffff;
+    opacity: 0.9;
+}
+
+
+#navBox {
+    background-color: white;
+    position: absolute;
+
+    
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 2px;
+    border-color: #E5E5E5;
+
+    z-index: 10;
+    top: 0px;
+    right: 0px;
+    width: fit-content;
+
+    text-align: right;
+}
+
+#lonk {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+#lonk:visited {
+    color: inherit;
+}
+#lonk:hover {
+    text-decoration: underline;
+}
