@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Flat" rel="stylesheet">
+        <link rel="icon" href="404/reagan404.png?" type="image/x-icon"/>
+        <title>what did you just do</title>
+        <style>
+body {
+    background-image: url(404/404.png);
+    background-size: 100%;
+    overflow: hidden;
+    font-family: Nova Flat;
+    color: rgb(0, 211, 0);
+}
+img {
+    width: 100%;
+    opacity: 20%;
+}
+
+@keyframes slidy {
+  from { left: 100%;}
+  to { left: -100%;}
+}
+@-webkit-keyframes slidy {
+  from { left: 100%;}
+  to { left: -100%;}
+}
+
+.slidy { 
+  background: rgba(70, 70, 70, 0.618);
+  width: 100%;
+  height: 30%;
+  line-height: 120px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0, -50%)
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 25%;
+  line-height: 10vh;
+  font-size: 10vh;
+  animation-name: slidy;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: slidy;
+  -webkit-animation-duration: 7s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+        </style>
+    </head>
+    <body>
+        
+        <img src="404/static.gif">
+        <div class="slidy">
+            <div class="text">404: page not found. <a href="https://samscoolwebsite.com"><u>Back⠀home</u></a></div>
+        </div>
+    </body>
+</html>
