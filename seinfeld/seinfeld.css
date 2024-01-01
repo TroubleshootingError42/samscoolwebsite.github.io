@@ -1,0 +1,43 @@
+.seinbutton {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(presein.png);
+    background-size: 300px 300px;    
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 50px;
+}
+  
+.seinbutton:hover {
+    background-color: #e0e0e0;
+}
+  
+.seinbutton:active {
+    background-image: url(seinpress.png);
+}
+  
+h6 {
+  position: absolute;
+  bottom: -20px;
+  right: 7px;
+}
+  
+
+
+.escape {
+    color: #0000EE;
+    text-decoration: underline;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 16px;
+    font-weight: bold; 
+    position:relative;
+    left: -2px;
+}
