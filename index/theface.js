@@ -8,7 +8,7 @@ var him;
     function showThing() {
       //i do̶n̶'̶t understand any of this
       let div = document.createElement('div');
-      div.innerHTML = '<div class="j"><img class="spin" src="images/nullnome.png"><div>';
+      div.innerHTML = '<div class="j"><img class="spin" src="index/images/nullnome.png"><div>';
       document.body.appendChild(div);
       
     }
